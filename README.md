@@ -14,7 +14,7 @@
 ```
 $ curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/colors.properties
 ```
-2. Restart Termux
+2. Reload Termux: `termux-reload-settings`
 
 ## 💝 Thanks to
 
