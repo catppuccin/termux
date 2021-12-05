@@ -5,7 +5,7 @@
 <p align="center">Warm mid-tone dark theme to show off your vibrant self!</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/termux/main/assets/ss.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/termux/main/assets/ss.jpg"/>
 </p>
 
 ## Usage
