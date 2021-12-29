@@ -12,7 +12,7 @@
 
 1. Copy the file named `colors.properties` and paste it under `$HOME/.termux/`:
 ```
-$ curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/colors.properties
+curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/colors.properties
 ```
 2. Reload Termux: `termux-reload-settings`
 
