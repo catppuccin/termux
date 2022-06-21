@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/termux/main/assets/ss.jpg"/>
+  <img src="assets/ss.png" />
 </p>
 
 ## Usage
