@@ -17,16 +17,14 @@
 
 ## Usage
 
-Catppuccin is now [included in Termux](https://github.com/termux/termux-styling/blob/master/app/src/main/assets/colors/catppuccin-mocha.properties)
+Catppuccin is now [included in Termux](https://github.com/termux/termux-styling/blob/master/app/src/main/assets/colors/catppuccin-mocha.properties).
 
-1. Install the Termux:Styling plugin
-> [!NOTE]
-> Instructions are located [on its readme](
-https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation)
-2. Long press, and then click "More"
-3. In the popup click "Style"
-4. Click "Choose Color"
-5. Scroll down the list until you find your preferred Catppuccin flavor!
+1. Install the [Termux:Styling](https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation) plugin
+2. When using Termux, long press anywhere in the terminal.
+3. Click `More...` in the resulting dialog.
+4. Click `Style` in the next popup.
+5. Click `CHOOSE COLOR`
+6. Scroll down the list until you find your preferred Catppuccin flavor!
 
 ## 💝 Thanks to
 
