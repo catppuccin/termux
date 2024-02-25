@@ -17,31 +17,20 @@
 
 ## Usage
 
-1. Copy the file named `colors.properties` from the directory of your chosen flavour and paste it under `$HOME/.termux/`:
+Catppuccin is now [included in Termux](https://github.com/termux/termux-styling/blob/master/app/src/main/assets/colors/catppuccin-mocha.properties)
 
-a) Latte:
-```
-curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/Latte/colors.properties
-```
-
-b) Frappe:
-```
-curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/Frappe/colors.properties
-```
-c) Macchiato:
-```
-curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/Macchiato/colors.properties
-```
-d) Mocha:
-```
-curl -o $HOME/.termux/colors.properties https://raw.githubusercontent.com/catppuccin/termux/main/Mocha/colors.properties
-```
-2. Reload Termux: `termux-reload-settings`
+1. Install the Termux:Styling plugin (you can find the instructions [on its readme](
+https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation)
+2. Long press, and then click "More"
+3. In the popup click "Style"
+4. Click "Choose Color"
+5. Scroll down the list until you find you preferred Catppuccin flavor!
 
 ## 💝 Thanks to
 
 - [Pocco81](https://github.com/Pocco81)
 - [Adal Zanabria](https://github.com/AdalZanabria)
+- [rubyowo](https://github.com/rubyowo)
 
 &nbsp;
 
