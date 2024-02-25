@@ -19,7 +19,7 @@
 
 Catppuccin is now [included in Termux](https://github.com/termux/termux-styling/blob/master/app/src/main/assets/colors/catppuccin-mocha.properties).
 
-1. Install the [Termux:Styling](https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation) plugin
+1. Install the [Termux:Styling](https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation) plugin.
 2. When using Termux, long press anywhere in the terminal.
 3. Click `More...` in the resulting dialog.
 4. Click `Style` in the next popup.
