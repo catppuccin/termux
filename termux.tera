@@ -1,46 +1,43 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "2.2.0"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.properties"
 ---
-
-{%- set palette = flavor.colors -%}
-
-background:     #{{ palette.base.hex }}
-foreground:     #{{ palette.text.hex }}
+background:     #{{ base.hex }}
+foreground:     #{{ text.hex }}
 
 {% if flavor.dark -%}
-color0:         #{{ palette.surface1.hex }}
-color8:         #{{ palette.surface2.hex }}
+color0:         #{{ surface1.hex }}
+color8:         #{{ surface2.hex }}
 {%- else -%}
-color0:         #{{ palette.subtext1.hex }}
-color8:         #{{ palette.surface2.hex }}
+color0:         #{{ subtext1.hex }}
+color8:         #{{ surface2.hex }}
 {%- endif %}
 
-color1:         #{{ palette.red.hex }}
-color9:         #{{ palette.red.hex }}
+color1:         #{{ red.hex }}
+color9:         #{{ red.hex }}
 
-color2:         #{{ palette.green.hex }}
-color10:        #{{ palette.green.hex }}
+color2:         #{{ green.hex }}
+color10:        #{{ green.hex }}
 
-color3:         #{{ palette.yellow.hex }}
-color11:        #{{ palette.yellow.hex }}
+color3:         #{{ yellow.hex }}
+color11:        #{{ yellow.hex }}
 
-color4:         #{{ palette.blue.hex }}
-color12:        #{{ palette.blue.hex }}
+color4:         #{{ blue.hex }}
+color12:        #{{ blue.hex }}
 
-color5:         #{{ palette.pink.hex }}
-color13:        #{{ palette.pink.hex }}
+color5:         #{{ pink.hex }}
+color13:        #{{ pink.hex }}
 
-color6:         #{{ palette.teal.hex }}
-color14:        #{{ palette.teal.hex }}
+color6:         #{{ teal.hex }}
+color14:        #{{ teal.hex }}
 
 {% if flavor.dark -%}
-color7:         #{{ palette.subtext1.hex }}
-color15:        #{{ palette.subtext0.hex }}
+color7:         #{{ subtext1.hex }}
+color15:        #{{ subtext0.hex }}
 {%- else -%}
-color7:         #{{ palette.surface2.hex }}
-color15:        #{{ palette.surface1.hex }}
-{%- endif -%}
+color7:         #{{ surface2.hex }}
+color15:        #{{ surface1.hex }}
+{%- endif %}
