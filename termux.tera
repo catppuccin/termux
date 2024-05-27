@@ -1,0 +1,43 @@
+---
+whiskers:
+  version: "2.2.0"
+  matrix:
+    - flavor
+  filename: "{{ flavor.identifier | capitalize }}/colors.properties"
+---
+background:     #{{ base.hex }}
+foreground:     #{{ text.hex }}
+
+{% if flavor.dark -%}
+color0:         #{{ surface1.hex }}
+color8:         #{{ surface2.hex }}
+{%- else -%}
+color0:         #{{ subtext1.hex }}
+color8:         #{{ surface2.hex }}
+{%- endif %}
+
+color1:         #{{ red.hex }}
+color9:         #{{ red.hex }}
+
+color2:         #{{ green.hex }}
+color10:        #{{ green.hex }}
+
+color3:         #{{ yellow.hex }}
+color11:        #{{ yellow.hex }}
+
+color4:         #{{ blue.hex }}
+color12:        #{{ blue.hex }}
+
+color5:         #{{ pink.hex }}
+color13:        #{{ pink.hex }}
+
+color6:         #{{ teal.hex }}
+color14:        #{{ teal.hex }}
+
+{% if flavor.dark -%}
+color7:         #{{ subtext1.hex }}
+color15:        #{{ subtext0.hex }}
+{%- else -%}
+color7:         #{{ surface2.hex }}
+color15:        #{{ surface1.hex }}
+{%- endif %}

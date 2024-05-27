@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/ss.jpg"/>
+  <img src="assets/preview.jpg"/>
 </p>
 
 ## Usage
@@ -20,11 +20,9 @@
 Catppuccin is now [included in Termux](https://github.com/termux/termux-styling/blob/master/app/src/main/assets/colors/catppuccin-mocha.properties).
 
 1. Install the [Termux:Styling](https://github.com/termux/termux-styling/tree/master?tab=readme-ov-file#installation) plugin.
-2. When using Termux, long press anywhere in the terminal.
-3. Click `More...` in the resulting dialog.
-4. Click `Style` in the next popup.
-5. Click `CHOOSE COLOR`
-6. Scroll down the list until you find your preferred Catppuccin flavor!
+2. In Termux, long press anywhere in the terminal.
+3. Click **More...** > **Style** > **CHOOSE COLOR**.
+4. Scroll down the list and select your preferred Catppuccin flavor.
 
 ## 💝 Thanks to
 
